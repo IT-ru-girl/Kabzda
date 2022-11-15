@@ -6,7 +6,7 @@ type AccordionPropsType = {
 }
 
 
-function SelfControlledAccordion(props: AccordionPropsType) {
+export function SelfControlledAccordion(props: AccordionPropsType) {
     //console.log('SelfControlledAccordion rendered')
 
     //let collapsed = true
@@ -55,4 +55,3 @@ function AccordionBody() {
 
 
 
-export default SelfControlledAccordion;

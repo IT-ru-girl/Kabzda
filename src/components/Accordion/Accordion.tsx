@@ -7,7 +7,7 @@ type AccordionPropsType = {
 }
 
 
-function Accordion(props: AccordionPropsType) {
+ export function Accordion(props: AccordionPropsType) {
     console.log('SelfControlledAccordion rendered')
     return (
         <div>
@@ -47,4 +47,3 @@ function AccordionBody() {
     );
 }
 
-export default Accordion;
